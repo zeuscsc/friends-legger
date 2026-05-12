@@ -1,0 +1,458 @@
+{
+  "name": "Chan Tai Man",
+  "accounts": [
+    {
+      "id": "acc-1",
+      "type": "FPS",
+      "accountNumber": "123-456789-001",
+      "balance": 15200.0,
+      "currency": "HKD"
+    },
+    {
+      "id": "acc-2",
+      "type": "PayMe",
+      "accountNumber": "9876 5432",
+      "balance": 4500.0,
+      "currency": "HKD"
+    },
+    {
+      "id": "acc-3",
+      "type": "Credit Card",
+      "accountNumber": "0443 2240 0424 0242",
+      "balance": 8450.0,
+      "currency": "HKD"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "t1",
+      "postDate": "02MAY",
+      "transDate": "30APR",
+      "description": "LUNA COFFEE ROASTERS KWUN TONG HK",
+      "amount": 85.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Dining"
+    },
+    {
+      "id": "t2",
+      "postDate": "05MAY",
+      "transDate": "04MAY",
+      "description": "EFTPAY*LITTLE BANGKOK KOWLOON CITY HK",
+      "amount": 320.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Dining"
+    },
+    {
+      "id": "t2_reimburse1",
+      "postDate": "05MAY",
+      "transDate": "04MAY",
+      "description": "PAYME FROM SARAH LEE - Little Bangkok half",
+      "amount": 100.0,
+      "currency": "HKD",
+      "isCredit": true,
+      "category": "Transfer"
+    },
+    {
+      "id": "t3",
+      "postDate": "10MAY",
+      "transDate": "08MAY",
+      "description": "NOVATRENDLIMITED 12345678 HK",
+      "amount": 488.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Subscription"
+    },
+    {
+      "id": "t_aws_may",
+      "postDate": "16MAY",
+      "transDate": "15MAY",
+      "description": "AMAZON WEB SERVICES AWS.AMAZON.CO WA US",
+      "amount": 154.2,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Cloud Services"
+    },
+    {
+      "id": "t_netflix_may",
+      "postDate": "13MAY",
+      "transDate": "12MAY",
+      "description": "NETFLIX.COM",
+      "amount": 93.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Subscription"
+    },
+    {
+      "id": "t4",
+      "postDate": "14MAY",
+      "transDate": "13MAY",
+      "description": "IFS PAYMENT - THANK YOU",
+      "amount": 3000.0,
+      "currency": "HKD",
+      "isCredit": true,
+      "category": "Payment"
+    },
+    {
+      "id": "t5",
+      "postDate": "18MAY",
+      "transDate": "16MAY",
+      "description": "E-SHOP MALL ONLINE O2O HK",
+      "amount": 540.5,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Shopping"
+    },
+    {
+      "id": "t6",
+      "postDate": "22MAY",
+      "transDate": "21MAY",
+      "description": "KINETIC SPORTS CAUSEWAY BAY HK",
+      "amount": 1250.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Shopping"
+    },
+    {
+      "id": "t7",
+      "postDate": "27MAY",
+      "transDate": "26MAY",
+      "description": "UMI SUSHI (TAI PO) LIM HongKong HK",
+      "amount": 450.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Dining"
+    },
+    {
+      "id": "t7_reimburse1",
+      "postDate": "27MAY",
+      "transDate": "26MAY",
+      "description": "FPS FROM DAVID CHAN - Sushi dinner",
+      "amount": 150.0,
+      "currency": "HKD",
+      "isCredit": true,
+      "category": "Transfer"
+    },
+    {
+      "id": "t7_reimburse2",
+      "postDate": "28MAY",
+      "transDate": "27MAY",
+      "description": "FPS FROM MARY WONG",
+      "amount": 150.0,
+      "currency": "HKD",
+      "isCredit": true,
+      "category": "Transfer"
+    },
+    {
+      "id": "t8",
+      "postDate": "03JUN",
+      "transDate": "02JUN",
+      "description": "THE ARTISAN CAFE LANTAU ISLAND HK",
+      "amount": 210.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Dining"
+    },
+    {
+      "id": "t9",
+      "postDate": "08JUN",
+      "transDate": "07JUN",
+      "description": "KPAY*SEOUL MEAT TST HK",
+      "amount": 680.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Dining"
+    },
+    {
+      "id": "t9_reimburse1",
+      "postDate": "08JUN",
+      "transDate": "07JUN",
+      "description": "PAYME FROM JOHN DOE",
+      "amount": 340.0,
+      "currency": "HKD",
+      "isCredit": true,
+      "category": "Transfer"
+    },
+    {
+      "id": "t10",
+      "postDate": "10JUN",
+      "transDate": "08JUN",
+      "description": "NOVATRENDLIMITED 12345678 HK",
+      "amount": 488.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Subscription"
+    },
+    {
+      "id": "t_aws_jun",
+      "postDate": "16JUN",
+      "transDate": "15JUN",
+      "description": "AMAZON WEB SERVICES AWS.AMAZON.CO WA US",
+      "amount": 148.5,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Cloud Services"
+    },
+    {
+      "id": "t_netflix_jun",
+      "postDate": "13JUN",
+      "transDate": "12JUN",
+      "description": "NETFLIX.COM",
+      "amount": 93.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Subscription"
+    },
+    {
+      "id": "t11",
+      "postDate": "15JUN",
+      "transDate": "14JUN",
+      "description": "IFS PAYMENT - THANK YOU",
+      "amount": 2500.0,
+      "currency": "HKD",
+      "isCredit": true,
+      "category": "Payment"
+    },
+    {
+      "id": "t12",
+      "postDate": "20JUN",
+      "transDate": "17JUN",
+      "description": "OSAKA MART SHINSAIBASHI JP JPY 8,500",
+      "amount": 435.2,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Travel"
+    },
+    {
+      "id": "t13",
+      "postDate": "21JUN",
+      "transDate": "18JUN",
+      "description": "NIPPON SUSHI UMEDA JP JPY 12,000",
+      "amount": 616.2,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Travel"
+    },
+    {
+      "id": "t14",
+      "postDate": "24JUN",
+      "transDate": "22JUN",
+      "description": "KANSAI AIRPORT DUTY FREE OSAKA JP JPY 4,500",
+      "amount": 231.3,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Travel"
+    },
+    {
+      "id": "t15",
+      "postDate": "28JUN",
+      "transDate": "26JUN",
+      "description": "METRO SUPERMARKET SHATIN HK",
+      "amount": 345.8,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Groceries"
+    },
+    {
+      "id": "t16",
+      "postDate": "04JUL",
+      "transDate": "03JUL",
+      "description": "SAKURA JAPANESE CUTLE MONG KOK HK",
+      "amount": 230.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Dining"
+    },
+    {
+      "id": "t16_reimburse1",
+      "postDate": "04JUL",
+      "transDate": "03JUL",
+      "description": "FPS FROM PETER PARKER - lunch split",
+      "amount": 115.0,
+      "currency": "HKD",
+      "isCredit": true,
+      "category": "Transfer"
+    },
+    {
+      "id": "t17",
+      "postDate": "10JUL",
+      "transDate": "08JUL",
+      "description": "NOVATRENDLIMITED 12345678 HK",
+      "amount": 488.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Subscription"
+    },
+    {
+      "id": "t_aws_jul",
+      "postDate": "16JUL",
+      "transDate": "15JUL",
+      "description": "AMAZON WEB SERVICES AWS.AMAZON.CO WA US",
+      "amount": 162.1,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Cloud Services"
+    },
+    {
+      "id": "t_netflix_jul",
+      "postDate": "13JUL",
+      "transDate": "12JUL",
+      "description": "NETFLIX.COM",
+      "amount": 93.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Subscription"
+    },
+    {
+      "id": "t18",
+      "postDate": "14JUL",
+      "transDate": "13JUL",
+      "description": "IFS PAYMENT - THANK YOU",
+      "amount": 4500.0,
+      "currency": "HKD",
+      "isCredit": true,
+      "category": "Payment"
+    },
+    {
+      "id": "t19",
+      "postDate": "19JUL",
+      "transDate": "18JUL",
+      "description": "GREEN VIBES VEGAN CENTRAL HK",
+      "amount": 175.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Dining"
+    },
+    {
+      "id": "t20",
+      "postDate": "25JUL",
+      "transDate": "23JUL",
+      "description": "TECH GADGETS WANCHAI HK",
+      "amount": 2890.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Shopping"
+    },
+    {
+      "id": "t21",
+      "postDate": "28JUL",
+      "transDate": "27JUL",
+      "description": "HK ELECTRIC BILL PAY ONLINE HK",
+      "amount": 855.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Bills"
+    },
+    {
+      "id": "t22",
+      "postDate": "30JUL",
+      "transDate": "29JUL",
+      "description": "EFTPAY*HONBO BURGER TSUEN WAN HK",
+      "amount": 145.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Dining"
+    },
+    {
+      "id": "t22_reimburse1",
+      "postDate": "30JUL",
+      "transDate": "29JUL",
+      "description": "PAYME FROM BRUCE WAYNE",
+      "amount": 72.5,
+      "currency": "HKD",
+      "isCredit": true,
+      "category": "Transfer"
+    },
+    {
+      "id": "t23",
+      "postDate": "05AUG",
+      "transDate": "04AUG",
+      "description": "FPS TO DAVID CHAN - PARTY ROOM",
+      "amount": 250.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Entertainment"
+    },
+    {
+      "id": "t24",
+      "postDate": "06AUG",
+      "transDate": "05AUG",
+      "description": "PAYME TO SARAH LEE - DINNER SPLIT",
+      "amount": 185.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Dining"
+    },
+    {
+      "id": "t25",
+      "postDate": "10AUG",
+      "transDate": "10AUG",
+      "description": "FPS FROM JOHN DOE - LUNCH",
+      "amount": 120.0,
+      "currency": "HKD",
+      "isCredit": true,
+      "category": "Transfer"
+    },
+    {
+      "id": "t26",
+      "postDate": "12AUG",
+      "transDate": "11AUG",
+      "description": "FPS TO RED BALLOON PARTY ROOM",
+      "amount": 1200.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Entertainment"
+    },
+    {
+      "id": "t27",
+      "postDate": "15AUG",
+      "transDate": "14AUG",
+      "description": "PAYME FROM MARY WONG - MOVIE TICKETS",
+      "amount": 240.0,
+      "currency": "HKD",
+      "isCredit": true,
+      "category": "Transfer"
+    },
+    {
+      "id": "t28",
+      "postDate": "18AUG",
+      "transDate": "18AUG",
+      "description": "FPS TO PETER PARKER - GIFT SHARE",
+      "amount": 500.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Transfer"
+    },
+    {
+      "id": "t29",
+      "postDate": "20AUG",
+      "transDate": "19AUG",
+      "description": "PAYME TO HAPPY HOURS CAFE",
+      "amount": 88.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Dining"
+    },
+    {
+      "id": "t30",
+      "postDate": "22AUG",
+      "transDate": "22AUG",
+      "description": "FPS FROM TONY STARK - SHARED BILL",
+      "amount": 450.0,
+      "currency": "HKD",
+      "isCredit": true,
+      "category": "Transfer"
+    },
+    {
+      "id": "t31",
+      "postDate": "25AUG",
+      "transDate": "24AUG",
+      "description": "PAYME TO BRUCE WAYNE - TAXI FARE",
+      "amount": 65.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Transfer"
+    }
+  ]
+}

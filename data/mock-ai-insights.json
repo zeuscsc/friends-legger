@@ -1,0 +1,56 @@
+{
+  "summary": "Your recurring digital subscriptions and cloud services show significant potential for optimization. We've identified several active services where usage reviews or plan adjustments could save you money. Many users often forget about these recurring charges, which can add up to substantial yearly savings.",
+  "totalDiscretionaryAmount": 735.2,
+  "discretionarySpending": [
+    {
+      "id": "ds_nova",
+      "description": "NOVATRENDLIMITED",
+      "category": "Subscription",
+      "amount": 488.0,
+      "reason": "Recurring monthly subscription. Review if this service is still providing value or if a more cost-effective plan is available.",
+      "insightType": "recurring"
+    },
+    {
+      "id": "ds6",
+      "description": "AMAZON WEB SERVICES",
+      "category": "Cloud Services",
+      "amount": 154.2,
+      "reason": "Review your AWS usage. You might be paying for idle instances or unattached storage that could be terminated.",
+      "insightType": "recurring"
+    },
+    {
+      "id": "ds7",
+      "description": "NETFLIX.COM",
+      "category": "Subscription",
+      "amount": 93.0,
+      "reason": "Consider downgrading your subscription plan if you are not using 4K streaming or sharing accounts across multiple devices.",
+      "insightType": "recurring"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec1",
+      "cardName": "HSBC Red Credit Card",
+      "rewardType": "RewardCash",
+      "benefit": "4% RewardCash on online spending and 1% on local groceries.",
+      "recommendedFor": "Online Shopping & Groceries",
+      "imagePlaceholder": "Red Card"
+    },
+    {
+      "id": "rec2",
+      "cardName": "HSBC EveryMile Credit Card",
+      "rewardType": "Miles",
+      "benefit": "HK$2 = 1 Mile on local and overseas spending.",
+      "recommendedFor": "Travel & Overseas Transactions",
+      "imagePlaceholder": "EveryMile"
+    },
+    {
+      "id": "rec3",
+      "cardName": "HSBC Visa Signature Card",
+      "rewardType": "RewardCash",
+      "benefit": "Up to 3.6% RewardCash on your favorite spending categories.",
+      "recommendedFor": "Dining & Lifestyle",
+      "imagePlaceholder": "Visa Signature"
+    }
+  ]
+}
