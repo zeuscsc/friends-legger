@@ -116,7 +116,7 @@ export default function ChatBubble({ onAiAction }: ChatBubbleProps) {
           <div className="p-4 bg-gray-800 border-b border-gray-700 flex justify-between items-center">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-red-600 rounded-full animate-pulse"></div>
-              <h3 className="font-semibold text-gray-100">SmartSpend Assistant</h3>
+              <h3 className="font-semibold text-gray-100">Friend's Legger Assistant</h3>
             </div>
             <button
               onClick={() => setIsOpen(false)}
@@ -132,7 +132,7 @@ export default function ChatBubble({ onAiAction }: ChatBubbleProps) {
           <div className="flex-1 overflow-y-auto p-4 space-y-4">
             {messages.length === 0 && (
               <div className="text-center text-gray-500 mt-8">
-                <p className="text-sm">Hello! I&apos;m your SmartSpend AI assistant. Ask me anything about your accounts or transactions.</p>
+                <p className="text-sm">Hello! I&apos;m your Friend's Legger AI assistant. Ask me anything about your accounts or transactions.</p>
               </div>
             )}
             {messages.map((m, i) => (

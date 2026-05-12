@@ -203,7 +203,7 @@ export default function Dashboard() {
 
           {/* Logo & Brand */}
           <div className="flex items-center gap-2 md:gap-3 flex-1 md:flex-none md:mr-auto">
-            <h1 className="hidden sm:block text-lg md:text-xl font-bold text-gray-100 tracking-tight">SmartSpend</h1>
+            <h1 className="hidden sm:block text-lg md:text-xl font-bold text-gray-100 tracking-tight">Friend's Legger</h1>
           </div>
 
           {/* Desktop User Menu */}
@@ -323,7 +323,7 @@ export default function Dashboard() {
       {/* Footer */}
       <footer className="max-w-6xl mx-auto px-4 md:px-6 mt-12 md:mt-16 pt-6 md:pt-8 border-t border-gray-800 text-center">
         <p className="text-xs text-gray-400">
-          &copy; {new Date().getFullYear()} SmartSpend. For demonstration purposes only.
+          &copy; {new Date().getFullYear()} Friend's Legger. For demonstration purposes only.
         </p>
       </footer>
 

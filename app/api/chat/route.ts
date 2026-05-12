@@ -10,7 +10,7 @@ export async function POST(req: Request) {
     const filePath = path.join(process.cwd(), 'data', 'mock-user.json');
     const userData = await fs.readFile(filePath, 'utf8');
     
-    const systemPrompt = `You are a helpful banking assistant for SmartSpend.
+    const systemPrompt = `You are a helpful banking assistant for Friend's Legger.
 Here is the user's financial data:
 ${userData}
 
