@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Friend's Legger",
-  description: "Analyze your spending habits and optimize rewards with Friend's Legger.",
+  title: "Preplexity",
+  description: "Next-generation banking assistant",
 };
 
 export default function RootLayout({

@@ -50,9 +50,16 @@ const AiInsights: React.FC<AiInsightsProps> = ({ analysis }) => {
 
       {isExpanded || (typeof window !== 'undefined' && window.innerWidth >= 768) ? (
         <>
-            <p className="text-sm md:text-base text-gray-400 mb-4 md:mb-6 leading-relaxed">
-            {analysis.summary}
-          </p>
+          <div className="text-sm md:text-base text-gray-400 mb-4 md:mb-6 leading-relaxed space-y-4">
+            {analysis.summary.split('\n\n').map((para, i) => (
+              <p key={i}>
+                {para.split(/(HSBC Red Credit Card|4% RewardCash|1%|permanently waived annual fee)/g).map((part, j) => 
+                  ['HSBC Red Credit Card', '4% RewardCash', '1%', 'permanently waived annual fee'].includes(part) ? 
+                  <strong key={j} className="text-gray-100">{part}</strong> : part
+                )}
+              </p>
+            ))}
+          </div>
 
           <div className="space-y-4">
             <h3 className="text-xs md:text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">

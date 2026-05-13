@@ -69,3 +69,27 @@ export interface AiAction {
   match?: string;
   peopleCount?: number;
 }
+
+export interface ChatCompletionChoice {
+  message?: {
+    content?: string | null;
+  };
+}
+
+export interface ChatCompletionResponse {
+  choices?: ChatCompletionChoice[];
+}
+
+export function getAssistantContentFromChatResponse(data: unknown): string | null {
+  if (!data || typeof data !== 'object') {
+    return null;
+  }
+
+  const response = data as ChatCompletionResponse;
+  if (!Array.isArray(response.choices) || response.choices.length === 0) {
+    return null;
+  }
+
+  const content = response.choices[0]?.message?.content;
+  return typeof content === 'string' ? content : null;
+}

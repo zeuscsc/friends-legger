@@ -16,6 +16,18 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Chat API Configuration
+
+The chat route at `/api/chat` proxies to a LiteLLM-compatible endpoint. Configure these environment variables in `.env.local`:
+
+```bash
+LITELLM_BASE_URL=http://localhost:4000
+LITELLM_API_KEY=asdf
+LITELLM_TIMEOUT_MS=30000
+```
+
+If LiteLLM is unavailable, `/api/chat` returns a descriptive 502/504 error that is shown in the chat UI.
+
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
