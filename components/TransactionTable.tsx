@@ -46,7 +46,7 @@ const TransactionTable: React.FC<TransactionTableProps> = ({ transactions, split
       // If no reimbursements found, default to a 2-way split (User + 1 Friend)
       if (people.length === 0) {
         people.push({
-          id: `p-${Date.now()}`,
+          id: `p-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
           name: 'Friend 1',
           amountOwed: t.amount / 2,
           hasPaid: false
@@ -106,7 +106,7 @@ const TransactionTable: React.FC<TransactionTableProps> = ({ transactions, split
     if (!split) return;
 
     const newPerson: SplitPerson = {
-      id: `p-${Date.now()}`,
+      id: `p-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
       name: `Friend ${split.people.length + 1}`,
       amountOwed: 0,
       hasPaid: false

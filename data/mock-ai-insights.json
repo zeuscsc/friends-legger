@@ -1,6 +1,6 @@
 {
-  "summary": "Your recurring digital subscriptions and cloud services show significant potential for optimization. We've identified several active services where usage reviews or plan adjustments could save you money. Many users often forget about these recurring charges, which can add up to substantial yearly savings.",
-  "totalDiscretionaryAmount": 735.2,
+  "summary": "We've detected significant spending at lifestyle and dining outlets like Sushiro, TamJai, and GU using non-HSBC cards. Switching these transactions to an HSBC Red Credit Card could earn you significantly more rewards, especially with its 4% RewardCash on online spending and 1% on local groceries. Additionally, the Red Card features a permanently waived annual fee.",
+  "totalDiscretionaryAmount": 5556.2,
   "discretionarySpending": [
     {
       "id": "ds_nova",
@@ -8,6 +8,22 @@
       "category": "Subscription",
       "amount": 488.0,
       "reason": "Recurring monthly subscription. Review if this service is still providing value or if a more cost-effective plan is available.",
+      "insightType": "recurring"
+    },
+    {
+      "id": "ds_disney",
+      "description": "DISNEY PLUS",
+      "category": "Subscription",
+      "amount": 73.0,
+      "reason": "You have multiple video streaming subscriptions (Netflix, Disney+, HBO). Consider pausing ones you aren't actively watching to reduce redundancy.",
+      "insightType": "recurring"
+    },
+    {
+      "id": "ds_hbo",
+      "description": "HBO GO",
+      "category": "Subscription",
+      "amount": 78.0,
+      "reason": "You are paying for HBO Go alongside other streaming services. Consider rotating your streaming subscriptions monthly based on what you are currently watching.",
       "insightType": "recurring"
     },
     {
@@ -19,12 +35,44 @@
       "insightType": "recurring"
     },
     {
+      "id": "ds_gcloud",
+      "description": "GOOGLE CLOUD",
+      "category": "Cloud Services",
+      "amount": 250.0,
+      "reason": "Review unused resources or consider switching to reserved instances for predictable workloads.",
+      "insightType": "recurring"
+    },
+    {
+      "id": "ds_azure",
+      "description": "MICROSOFT AZURE",
+      "category": "Cloud Services",
+      "amount": 120.0,
+      "reason": "You have active infrastructure on AWS, Google Cloud, and Azure. Consolidating your cloud workloads to a single provider could reduce baseline costs and simplify management.",
+      "insightType": "recurring"
+    },
+    {
       "id": "ds7",
       "description": "NETFLIX.COM",
       "category": "Subscription",
       "amount": 93.0,
       "reason": "Consider downgrading your subscription plan if you are not using 4K streaming or sharing accounts across multiple devices.",
       "insightType": "recurring"
+    },
+    {
+      "id": "ds_omakase",
+      "description": "OMAKASE GINZA",
+      "category": "Dining",
+      "amount": 2500.0,
+      "reason": "This is a very high-end dining expense. Reducing the frequency of luxury dining could save you over HKD 30,000 annually.",
+      "insightType": "discretionary"
+    },
+    {
+      "id": "ds_steakhouse",
+      "description": "THE GRAND STEAKHOUSE",
+      "category": "Dining",
+      "amount": 1800.0,
+      "reason": "High discretionary spend on dining. Consider more modest alternatives for regular social outings to optimize your savings.",
+      "insightType": "discretionary"
     }
   ],
   "recommendations": [
@@ -32,25 +80,10 @@
       "id": "rec1",
       "cardName": "HSBC Red Credit Card",
       "rewardType": "RewardCash",
-      "benefit": "4% RewardCash on online spending and 1% on local groceries.",
-      "recommendedFor": "Online Shopping & Groceries",
-      "imagePlaceholder": "Red Card"
-    },
-    {
-      "id": "rec2",
-      "cardName": "HSBC EveryMile Credit Card",
-      "rewardType": "Miles",
-      "benefit": "HK$2 = 1 Mile on local and overseas spending.",
-      "recommendedFor": "Travel & Overseas Transactions",
-      "imagePlaceholder": "EveryMile"
-    },
-    {
-      "id": "rec3",
-      "cardName": "HSBC Visa Signature Card",
-      "rewardType": "RewardCash",
-      "benefit": "Up to 3.6% RewardCash on your favorite spending categories.",
-      "recommendedFor": "Dining & Lifestyle",
-      "imagePlaceholder": "Visa Signature"
+      "benefit": "You've spent over HKD 3,500 at Sushiro, TamJai, GU, and Decathlon using BOC cards recently. Switch to the Red Card to earn 4% RewardCash on online spending and 1% on local groceries with $0 Annual Fee permanently waived.",
+      "recommendedFor": "Lifestyle & Dining Optimization",
+      "imagePlaceholder": "Red Card",
+      "imageUrl": "https://www.hsbc.com.hk/content/dam/hsbc/hk/images/mass/credit-cards/tile-16-9/9358-hsbc-red-credit-card-1280x828.jpg/jcr:content/renditions/cq5dam.web.630.1000.jpeg"
     }
   ]
 }

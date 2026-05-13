@@ -40,6 +40,7 @@ export interface CardRecommendation {
   benefit: string;
   recommendedFor: string;
   imagePlaceholder?: string;
+  imageUrl?: string;
 }
 
 export interface AiAnalysis {

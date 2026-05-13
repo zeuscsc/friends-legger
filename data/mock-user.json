@@ -453,6 +453,136 @@
       "currency": "HKD",
       "isCredit": false,
       "category": "Transfer"
+    },
+    {
+      "id": "t32",
+      "postDate": "26AUG",
+      "transDate": "25AUG",
+      "description": "DISNEY PLUS",
+      "amount": 73.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Subscription"
+    },
+    {
+      "id": "t33",
+      "postDate": "27AUG",
+      "transDate": "26AUG",
+      "description": "MICROSOFT AZURE",
+      "amount": 120.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Cloud Services"
+    },
+    {
+      "id": "t34",
+      "postDate": "28AUG",
+      "transDate": "27AUG",
+      "description": "HBO GO",
+      "amount": 78.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Subscription"
+    },
+    {
+      "id": "t35",
+      "postDate": "29AUG",
+      "transDate": "28AUG",
+      "description": "GOOGLE CLOUD",
+      "amount": 250.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Cloud Services"
+    },
+    {
+      "id": "t36",
+      "postDate": "30AUG",
+      "transDate": "29AUG",
+      "description": "OMAKASE GINZA TST HK",
+      "amount": 2500.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Dining"
+    },
+    {
+      "id": "t37",
+      "postDate": "31AUG",
+      "transDate": "30AUG",
+      "description": "THE GRAND STEAKHOUSE CENTRAL HK",
+      "amount": 1800.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Dining"
+    },
+    {
+      "id": "boc_sushiro",
+      "postDate": "05SEP",
+      "transDate": "04SEP",
+      "description": "BOC*香港壽司郎 TST HK",
+      "amount": 450.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Dining"
+    },
+    {
+      "id": "boc_tamjai3",
+      "postDate": "07SEP",
+      "transDate": "06SEP",
+      "description": "BOC*譚仔三哥米線 MONG KOK HK",
+      "amount": 120.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Dining"
+    },
+    {
+      "id": "boc_tamjai_yn",
+      "postDate": "10SEP",
+      "transDate": "09SEP",
+      "description": "BOC*譚仔雲南米線 CWB HK",
+      "amount": 135.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Dining"
+    },
+    {
+      "id": "boc_gu",
+      "postDate": "12SEP",
+      "transDate": "11SEP",
+      "description": "BOC*GU HONG KONG TST HK",
+      "amount": 890.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Shopping"
+    },
+    {
+      "id": "boc_decathlon",
+      "postDate": "15SEP",
+      "transDate": "14SEP",
+      "description": "BOC*DECATHLON HONG KONG MK HK",
+      "amount": 1200.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Shopping"
+    },
+    {
+      "id": "boc_namco",
+      "postDate": "18SEP",
+      "transDate": "17SEP",
+      "description": "BOC*NAMCO LANGHAM PLACE HK",
+      "amount": 500.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Entertainment"
+    },
+    {
+      "id": "boc_taito",
+      "postDate": "20SEP",
+      "transDate": "19SEP",
+      "description": "BOC*TAITO STATION HK",
+      "amount": 300.0,
+      "currency": "HKD",
+      "isCredit": false,
+      "category": "Entertainment"
     }
   ]
 }

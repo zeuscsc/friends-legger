@@ -8,7 +8,7 @@ interface AiInsightsProps {
 const AiInsights: React.FC<AiInsightsProps> = ({ analysis }) => {
   const [isExpanded, setIsExpanded] = React.useState(true);
 
-  const categoryPriority = ['Subscription', 'Cloud Services', 'Entertainment', 'Travel', 'Groceries', 'Bills', 'Payment'];
+  const categoryPriority = ['Subscription', 'Cloud Services', 'Dining', 'Entertainment', 'Travel', 'Groceries', 'Bills', 'Payment'];
 
   const groupedSpending = analysis.discretionarySpending.reduce((acc, item) => {
     const category = item.category || 'Other';
